@@ -15,7 +15,7 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
+    background: #E87D96;
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
@@ -31,12 +31,13 @@
 }
 
 .slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
   font-style: italic;
   padding-top: 26px;
 }
 
 .links {
+  font-family: 'Amatic SC', cursive;
   padding-top:26px;
 }
 
@@ -48,7 +49,7 @@
 }
 
 header {
-  border-top: 9px solid #222222
+  border-top: 9px solid #000000
 }
 
 hr {
@@ -64,13 +65,13 @@ h2 {
 }
 
 .next-quote {
-  color:#C4545A;
-  font-family: 'Shadows Into Light Two', cursive;
-  font-size:20px;
+  color:#E87D96;
+  font-family: 'Amatic SC', cursive;
+  font-size:30px;
 }
 
 .footer-blurb {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
   font-style: italic;
   text-align:right;
   font-size:10px;
@@ -81,5 +82,24 @@ h2 {
 }
 
 .about {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+h2 span {
+  color: #E87D96;
+  font-family: 'Amatic SC', cursive;
+}
+
+::selection {
+  background-color: #E87D96;
 }
